@@ -36,23 +36,23 @@ This is a chatbot system that integrates multiple models using gRPC for communic
    pip install -r requirements.txt
 
 **Usage**
-*Starting the gRPC Server*
-Start the server by running:
+- *Starting the gRPC Server*
+- Start the server by running:
 ```bash
 python gRPC_server.py
 ```
 
-*Running the Client*
+- *Running the Client*
 ```bash
 streamlit run gRPC_client.py
 ```
 On the web interface, you can:
 
-Select an agent (e.g., Gemini).
-Input text and choose the response type (Text Generation or Streaming).
-Manage your session history.
-Delete agents when needed.
-
+- **Select an agent (e.g., Gemini).**
+- **Input text and choose the response type (Text Generation or Streaming).**
+- **Manage your session history.**
+- **Delete agents when needed.**
+  
 **Example**
 Here is an example of how to interact with the system:
 1. Start the gRPC server (server.py).
